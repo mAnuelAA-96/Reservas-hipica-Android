@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="175dp"
+    android:layout_height="100dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/green1"
+        android:padding="5dp"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/tvDiaSemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Domingo"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvFecha" />
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="2024-05-12"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvDiaSemana"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="10:00"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/tvFecha"
+            app:layout_constraintStart_toStartOf="@+id/tvDiaSemana"
+            app:layout_constraintTop_toBottomOf="@+id/tvFecha" />
+
+        <TextView
+            android:id="@+id/tvNombreCaballo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre caballo"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/tvFecha"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="@+id/tvDiaSemana"
+            app:layout_constraintTop_toBottomOf="@+id/tvCaballoGrid" />
+
+        <TextView
+            android:id="@+id/tvCaballoGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Caballo"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/tvFecha"
+            app:layout_constraintStart_toStartOf="@+id/tvDiaSemana"
+            app:layout_constraintTop_toBottomOf="@+id/tvHora" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Reservas_hipica" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green1</item>
+        <item name="colorPrimaryVariant">@color/green2</item>
+        <item name="colorOnPrimary">@color/green3</item>
+        <item name="colorSecondary">@color/green4</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="LoginRegister.Theme.reservas_hipica" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/green1</item>
+        <item name="colorPrimaryVariant">@color/green2</item>
+        <item name="colorOnPrimary">@color/green3</item>
+        <item name="colorSecondary">@color/green4</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="MisReservas.Theme.reservas_hipica" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/green1</item>
+        <item name="colorPrimaryVariant">@color/green2</item>
+        <item name="colorOnPrimary">@color/green3</item>
+        <item name="colorSecondary">@color/green4</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Add.Theme.reservas_hipica" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/green1</item>
+        <item name="colorPrimaryVariant">@color/green2</item>
+        <item name="colorOnPrimary">@color/green3</item>
+        <item name="colorSecondary">@color/green4</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Edit.Theme.reservas_hipica" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/green1</item>
+        <item name="colorPrimaryVariant">@color/green2</item>
+        <item name="colorOnPrimary">@color/green3</item>
+        <item name="colorSecondary">@color/green4</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.Reservas_hipica" parent="Base.Theme.Reservas_hipica" />
+</resources>
