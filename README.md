@@ -1,6 +1,6 @@
 APLICACIÓN MÓVIL RESERVAS
 
-Aplicación cliente Android para la gestión de reservas del proyecto Reservas-hípica-Laravel
+Aplicación cliente Android para la gestión de reservas del proyecto Reservas-hípica-Laravel.
 
 CAPTURAS
 
